@@ -209,6 +209,10 @@ nav li {
     border: 0;
 }
 
+.card-image:hover{
+    cursor: pointer;
+}
+
 .card>.light-grey-text {
     text-align: left;
 }
