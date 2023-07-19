@@ -163,46 +163,103 @@ nav li {
 .card>.light-grey-text {
     text-align: left;
 }
-.icon-container{
+
+.icon-container {
     display: grid;
     grid-template-columns: repeat(5, 1fr);
     margin-top: 50px;
     padding: 8px 130px;
     justify-content: space-evenly;
 }
-.icons{
+
+.icons {
     margin: 20px 5px;
     display: flex;
     padding: 0px 5px;
     align-items: center;
     gap: 5px;
 }
-.icons-2{
+
+.icons-2 {
     margin: 20px 30px;
     display: flex;
     padding: 0px 5px;
     align-items: center;
     gap: 5px;
 }
-.icons:hover{
+
+.icons:hover {
     cursor: pointer;
     border-radius: 50px;
     border: 1px solid red;
 }
-.icons h1{
+
+.icons h1 {
     color: #0B0223;
     font-size: 12px;
     font-weight: 600;
 }
-.icons-2:hover{
+
+.icons-2:hover {
     cursor: pointer;
     border-radius: 50px;
     border: 1px solid red;
 }
-.icons-2 h1{
+
+.icons-2 h1 {
     color: #0B0223;
     font-size: 12px;
     font-weight: 600;
+}
+
+footer {
+    background-color: #0B0223;
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-title {
+    color: white;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    align-items: center;
+}
+
+.footer-item {
+    margin: 40px 0px;
+    display: flex;
+    justify-content: center;
+}
+
+.footer-item a {
+    text-decoration: none;
+    color: white;
+}
+
+.footer-item p {
+    margin: 0px 25px;
+    color: #FFF;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.social-container {
+    margin: 20px 0px;
+    display: flex;
+    justify-content: center;
+}
+
+.social-content {
+    margin: 0px 20px;
+}
+
+.footer-text {
+    color: rgba(255, 255, 255, 0.60);
+    text-align: center;
+    font-size: 10px;
+    font-weight: 500;
 }
 
 
@@ -231,19 +288,21 @@ nav li {
         gap: 20px;
     }
 
-    .icon-container{
+    .icon-container {
         display: grid;
         grid-template-columns: repeat(3, 1fr);
         gap: 25px;
     }
-    .icons, .icons-2{
+
+    .icons,
+    .icons-2 {
         margin: 10px 0px;
         padding: 0px 0px;
     }
 }
 
-@media screen and (min-width: 480px) and (max-width: 800px){
-    nav{
+@media screen and (min-width: 480px) and (max-width: 800px) {
+    nav {
         display: block;
     }
 
@@ -252,7 +311,7 @@ nav li {
     .cards-container,
     nav,
     .online-game-text h1,
-    nav>ul{
+    nav>ul {
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -260,7 +319,7 @@ nav li {
         gap: 20px;
     }
 
-    .banner{
+    .banner {
         display: flex;
         flex-direction: column-reverse;
         justify-content: center;
@@ -268,15 +327,18 @@ nav li {
         gap: 20px;
     }
 
-    .follow-us{
+    .follow-us {
         display: flex;
     }
-    .icon-container{
+
+    .icon-container {
         display: grid;
         grid-template-columns: repeat(3, 1fr);
         gap: 25px;
     }
-    .icons, .icons-2{
+
+    .icons,
+    .icons-2 {
         margin: 10px 0px;
         padding: 0px 0px;
     }
