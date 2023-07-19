@@ -133,16 +133,16 @@ nav li {
     justify-content: space-between;
 }
 
-.instant-play-container {
+.instant-play-container{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    width: 30%;
+    width: 325px;
     align-items: center;
 }
 
 .play-title{
-    text-align: right;
+    text-align: center;
     font-size: 25px;
     font-weight: 700;
 }
@@ -323,14 +323,30 @@ footer {
     .cards-container,
     nav,
     .online-game-text h1,
-    nav>ul {
+    nav>ul, .image-container, .image-lead{
         display: flex;
         flex-direction: column;
         justify-content: center;
+        text-align: center;
         margin: 20px 0px;
         gap: 20px;
     }
-
+    .instant-play{
+        display: flex;
+        flex-direction: column;
+        padding: 10px 10px;
+    }
+    .instant-play-container{
+        margin: 0px 80px;
+    }
+    
+    .image-extra{
+        height: 150px;
+        width: 150px;
+        position: static;
+        margin-top: -150px;
+        margin-left: -70px;
+    }
     .banner {
         display: flex;
         flex-direction: column-reverse;
@@ -356,7 +372,7 @@ footer {
     }
 }
 
-@media screen and (min-width: 480px) and (max-width: 800px) {
+@media screen and (min-width: 480px) and (max-width: 770px) {
     nav {
         display: block;
     }
@@ -366,12 +382,34 @@ footer {
     .cards-container,
     nav,
     .online-game-text h1,
-    nav>ul {
+    nav>ul, .instant-play{
         display: flex;
         flex-direction: column;
         justify-content: center;
         margin: 20px 20px;
         gap: 20px;
+    }
+
+    .image-container{
+        display: flex;
+        margin: 20px 20px;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .image-lead{
+        width: 350px;
+        height: 400px;
+        margin: 0px 200px;
+    }
+
+    .image-extra{
+        position: static;
+        height: 250px;
+        width: 250px;
+        margin-top: -170px;
+        margin-right: 380px;
     }
 
     .banner {
