@@ -163,37 +163,46 @@ nav li {
 .card>.light-grey-text {
     text-align: left;
 }
-.icons{
-    display: block;
+.icon-container{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
     margin-top: 50px;
     padding: 8px 130px;
-
-}
-.icons-1{
-    display: flex;
     justify-content: space-evenly;
 }
-.icons-1-0{
+.icons{
+    margin: 20px 5px;
     display: flex;
-    padding: 0px 10px;
-    
+    padding: 0px 5px;
     align-items: center;
-    gap: 10px;
+    gap: 5px;
 }
-.icons-1-0:hover{
+.icons-2{
+    margin: 20px 30px;
+    display: flex;
+    padding: 0px 5px;
+    align-items: center;
+    gap: 5px;
+}
+.icons:hover{
     cursor: pointer;
     border-radius: 50px;
     border: 1px solid red;
 }
-.icons-1-0 h1{
+.icons h1{
     color: #0B0223;
-    font-size: 15px;
+    font-size: 12px;
     font-weight: 600;
 }
-.icons-2{
-    display: flex;
-    justify-content: center;
-    margin-top: 10px;
+.icons-2:hover{
+    cursor: pointer;
+    border-radius: 50px;
+    border: 1px solid red;
+}
+.icons-2 h1{
+    color: #0B0223;
+    font-size: 12px;
+    font-weight: 600;
 }
 
 
@@ -221,10 +230,20 @@ nav li {
         margin: 20px 20px;
         gap: 20px;
     }
+
+    .icon-container{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 25px;
+    }
+    .icons, .icons-2{
+        margin: 10px 0px;
+        padding: 0px 0px;
+    }
 }
 
-@media screen and (min-width: 480px) and (max-width: 770px) {
-    nav {
+@media screen and (min-width: 480px) and (max-width: 800px){
+    nav{
         display: block;
     }
 
@@ -233,7 +252,7 @@ nav li {
     .cards-container,
     nav,
     .online-game-text h1,
-    nav>ul {
+    nav>ul{
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -241,7 +260,7 @@ nav li {
         gap: 20px;
     }
 
-    .banner {
+    .banner{
         display: flex;
         flex-direction: column-reverse;
         justify-content: center;
@@ -249,7 +268,16 @@ nav li {
         gap: 20px;
     }
 
-    .follow-us {
+    .follow-us{
         display: flex;
+    }
+    .icon-container{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 25px;
+    }
+    .icons, .icons-2{
+        margin: 10px 0px;
+        padding: 0px 0px;
     }
 }
