@@ -126,14 +126,14 @@ nav li {
     height: 100%;
 }
 
-.instant-play{
+.instant-play {
     display: flex;
     margin-top: 100px;
     padding: 0px 130px;
     justify-content: space-between;
 }
 
-.instant-play-container{
+.instant-play-container {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -141,33 +141,33 @@ nav li {
     align-items: center;
 }
 
-.play-title{
+.play-title {
     text-align: center;
     font-size: 25px;
     font-weight: 700;
 }
 
-.play-paragraph{
+.play-paragraph {
     color: #534C64;
     text-align: right;
     font-size: 15px;
     font-weight: 400;
 }
 
-.image-container{
+.image-container {
     display: flex;
     flex-direction: column;
     padding-left: 70px;
-    
+
 }
 
-.image-lead{
+.image-lead {
     margin-left: 150px;
     width: 80%;
     height: 100%;
 }
 
-.image-extra{
+.image-extra {
     position: relative;
     width: 310px;
     height: 350px;
@@ -323,7 +323,9 @@ footer {
     .cards-container,
     nav,
     .online-game-text h1,
-    nav>ul, .image-container, .image-lead{
+    nav>ul,
+    .image-container,
+    .image-lead {
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -331,22 +333,25 @@ footer {
         margin: 20px 0px;
         gap: 20px;
     }
-    .instant-play{
+
+    .instant-play {
         display: flex;
         flex-direction: column;
         padding: 10px 10px;
     }
-    .instant-play-container{
+
+    .instant-play-container {
         margin: 0px 80px;
     }
-    
-    .image-extra{
+
+    .image-extra {
         height: 150px;
         width: 150px;
         position: static;
         margin-top: -150px;
         margin-left: -70px;
     }
+
     .banner {
         display: flex;
         flex-direction: column-reverse;
@@ -382,7 +387,8 @@ footer {
     .cards-container,
     nav,
     .online-game-text h1,
-    nav>ul, .instant-play{
+    nav>ul,
+    .instant-play {
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -390,7 +396,7 @@ footer {
         gap: 20px;
     }
 
-    .image-container{
+    .image-container {
         display: flex;
         margin: 20px 20px;
         flex-direction: column;
@@ -398,13 +404,13 @@ footer {
         align-items: center;
     }
 
-    .image-lead{
+    .image-lead {
         width: 350px;
         height: 400px;
         margin: 0px 200px;
     }
 
-    .image-extra{
+    .image-extra {
         position: static;
         height: 250px;
         width: 250px;
