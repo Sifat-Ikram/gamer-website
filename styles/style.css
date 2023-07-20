@@ -193,7 +193,7 @@ nav li {
     gap: 15px;
 }
 
-.card{
+.card {
     position: relative;
     display: flex;
     flex-direction: column;
@@ -215,7 +215,7 @@ nav li {
     border: 0;
 }
 
-.card-overlay{
+.card-overlay {
     display: none;
     position: absolute;
     border-radius: 16px;
@@ -246,7 +246,7 @@ nav li {
     font-weight: 600;
 }
 
-.card-overlay:hover{
+.card-overlay:hover {
     position: absolute;
     opacity: 1;
     display: flex;
@@ -257,6 +257,55 @@ nav li {
 }
 
 .card>.light-grey-text {
+    text-align: left;
+}
+
+.play-online {
+    margin: 180px 130px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.play-online-image-container {
+    display: flex;
+}
+
+.play-online-main-image{
+    position: relative;
+    width: 90%;
+    height: 100%;
+}
+
+.play-online-non-main-image {
+    margin-top: 350px;
+    margin-left: 400px;
+    position: absolute;
+    height: 300px;
+    width: 300px;
+}
+
+.play-online-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 35%;
+    text-align: left;
+    align-items: center;
+    margin-left: 120px;
+    padding-right: 0px;
+}
+
+.play-online-title {
+    font-size: 20px;
+    font-weight: 700;
+    text-align: left;
+    padding-right: 70px;
+}
+
+.play-online-text {
+    color: #534C64;
+    font-weight: 400;
+    font-size: 14px;
     text-align: left;
 }
 
@@ -276,8 +325,6 @@ nav li {
     align-items: center;
     flex-basis: 180px;
 }
-
-
 
 .icons:hover {
     cursor: pointer;
@@ -382,6 +429,39 @@ footer {
         margin-left: -70px;
     }
 
+    .play-online{
+        display: block;
+        margin: 10px 10px;   
+    }
+
+    .play-online-main-image{
+        position: relative;
+        margin-left: 20px;
+        width: 80%;
+    }
+
+    .play-online-non-main-image{
+        position: absolute;
+        height: 200px;
+        width: 200px;
+        margin-top: 210px;
+        margin-left: 240px;
+    }
+
+    .play-online-container{
+        position: static;
+        text-align: center;
+        margin: 130px 70px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 100%; 
+    }
+
+    .play-online-text{
+        padding-right: 100px;
+    }
+
     .banner {
         display: flex;
         flex-direction: column-reverse;
@@ -445,6 +525,42 @@ footer {
         width: 250px;
         margin-top: -170px;
         margin-right: 380px;
+    }
+    .play-online{
+        display: block;
+        margin: 10px 10px;   
+    }
+
+    .play-online-main-image{
+        position: relative;
+        margin-left: 70px;
+        width: 60%;
+    }
+
+    .play-online-non-main-image{
+        position: absolute;
+        height: 200px;
+        width: 200px;
+        margin-top: 250px;
+        margin-left: 350px;
+    }
+
+    .play-online-container{
+        position: static;
+        text-align: center;
+        margin: 130px 0px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 100%;
+    }
+
+    .play-online-text{
+        padding: 0px 150px;
+    }
+
+    .play-online-title{
+        padding: 0px 250px;
     }
 
     .banner {
