@@ -218,28 +218,23 @@ nav li {
 }
 
 .icon-container {
-    display: grid;
-    grid-template-columns: repeat(5, 1fr);
-    margin-top: 50px;
-    padding: 8px 130px;
-    justify-content: space-evenly;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0px 130px;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    margin: 50px 0px;
 }
 
 .icons {
-    margin: 20px 5px;
     display: flex;
-    padding: 0px 5px;
+    justify-content: space-evenly;
     align-items: center;
-    gap: 5px;
+    flex-basis: 180px;
 }
 
-.icons-2 {
-    margin: 20px 30px;
-    display: flex;
-    padding: 0px 5px;
-    align-items: center;
-    gap: 5px;
-}
+
 
 .icons:hover {
     cursor: pointer;
@@ -248,18 +243,6 @@ nav li {
 }
 
 .icons h1 {
-    color: #0B0223;
-    font-size: 12px;
-    font-weight: 600;
-}
-
-.icons-2:hover {
-    cursor: pointer;
-    border-radius: 50px;
-    border: 1px solid red;
-}
-
-.icons-2 h1 {
     color: #0B0223;
     font-size: 12px;
     font-weight: 600;
@@ -363,9 +346,8 @@ footer {
         margin: 20px 20px;
         gap: 20px;
     }
-
-    .icon-container,
-    .social-container,
+    
+    .icon-container, .social-container,
     .footer-item {
         display: grid;
         grid-template-columns: repeat(3, 1fr);
@@ -374,8 +356,7 @@ footer {
         padding: 0px 50px;
     }
 
-    .icons,
-    .icons-2 {
+    .icons{
         margin: 10px 0px;
         padding: 0px 0px;
     }
@@ -434,8 +415,7 @@ footer {
         display: flex;
     }
 
-    .icon-container,
-    .social-container,
+    .icon-container, .social-container,
     .footer-item {
         display: grid;
         grid-template-columns: repeat(3, 1fr);
@@ -448,8 +428,7 @@ footer {
         padding-left: 100px;
     }
 
-    .icons,
-    .icons-2 {
+    .icons{
         margin: 10px 0px;
         padding: 0px 0px;
     }
